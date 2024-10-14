@@ -1,5 +1,53 @@
-48 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-48 error remote: Permission to lerna/getting-started-example.git denied to akhilsdeportfolio.
-48 error fatal: unable to access 'https://github.com/lerna/getting-started-example.git/': The requested URL returned error: 403
-48 error     at makeError (/Users/akamsala/Desktop/work-spaces/getting-started-example/node_modules/execa/lib/error.js:59:11)
-48 error     at handlePromise (/Users/akamsala/Desktop/work-spaces/getting-started-example/node_modules/execa/index.js:114:26)
+56 error Error: Command failed with exit code 1: git push --follow-tags --no-verify --atomic origin main
+56 error remote: error: GH013: Repository rule violations found for refs/heads/main.
+56 error remote:
+56 error remote: - GITHUB PUSH PROTECTION
+56 error remote:   —————————————————————————————————————————
+56 error remote:     Resolve the following violations before pushing again
+56 error remote:
+56 error remote:     - Push cannot contain secrets
+56 error remote:
+56 error remote:
+56 error remote:      (?) Learn how to resolve a blocked push
+56 error remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+56 error remote:
+56 error remote:
+56 error remote:       —— npm Access Token ——————————————————————————————————
+56 error remote:        locations:
+56 error remote:          - commit: bdef11b3d3d78b4a23bea0bdbc951a4d2d51d3b7
+56 error remote:            path: .npmrc:1
+56 error remote:
+56 error remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+56 error remote:        https://github.com/akhilsdeportfolio/lerna/security/secret-scanning/unblock-secret/2nQlj4qr6oz89IpPFPwoCxQbId4
+56 error remote:
+56 error remote:
+56 error remote:
+56 error remote: error: GH013: Repository rule violations found for refs/tags/v2.0.3.
+56 error remote:
+56 error remote: - GITHUB PUSH PROTECTION
+56 error remote:   —————————————————————————————————————————
+56 error remote:     Resolve the following violations before pushing again
+56 error remote:
+56 error remote:     - Push cannot contain secrets
+56 error remote:
+56 error remote:
+56 error remote:      (?) Learn how to resolve a blocked push
+56 error remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+56 error remote:
+56 error remote:
+56 error remote:       —— npm Access Token ——————————————————————————————————
+56 error remote:        locations:
+56 error remote:          - commit: bdef11b3d3d78b4a23bea0bdbc951a4d2d51d3b7
+56 error remote:            path: .npmrc:1
+56 error remote:
+56 error remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+56 error remote:        https://github.com/akhilsdeportfolio/lerna/security/secret-scanning/unblock-secret/2nQlj4qr6oz89IpPFPwoCxQbId4
+56 error remote:
+56 error remote:
+56 error remote:
+56 error To https://github.com/akhilsdeportfolio/lerna.git
+56 error  ! [remote rejected] main -> main (push declined due to repository rule violations)
+56 error  ! [remote rejected] v2.0.3 -> v2.0.3 (push declined due to repository rule violations)
+56 error error: failed to push some refs to 'https://github.com/akhilsdeportfolio/lerna.git'
+56 error     at makeError (/Users/akamsala/Desktop/work-spaces/getting-started-example/node_modules/execa/lib/error.js:59:11)
+56 error     at handlePromise (/Users/akamsala/Desktop/work-spaces/getting-started-example/node_modules/execa/index.js:114:26)

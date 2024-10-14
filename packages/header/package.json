@@ -1,6 +1,6 @@
 {
-  "name": "header",
-  "version": "2.0.1",
+  "name": "header-akhil",
+  "version": "2.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "a2221f7630ed42777063db83c471f265f38d9ede"
 }
