@@ -1,5 +1,5 @@
-import {Header} from 'header';
-import {Footer} from 'footer';
+import {Header} from 'header-akhil';
+import {Footer} from 'footer-akhil';
 
 export default function Index() {
     return (
